@@ -11,7 +11,8 @@ permissions:
 
 jobs:
   build:
-    uses: Instagram/LibCST/.github/workflows/build.yml@main
+    # uses: Instagram/LibCST/.github/workflows/build.yml@main
+    uses: mordekasg/LibCST/.github/workflows/build.yml@main
   upload_release:
     name: Upload wheels to pypi
     runs-on: ubuntu-latest
